@@ -12,9 +12,10 @@ function App() {
 
   return (
     <>
-      <Historico historico={historico}></Historico>
-      <Operacoes buscarHistorico={buscarHistorico}></Operacoes>
-      
+      <div className=''>
+        <Historico historico={historico} />
+        <Operacoes buscarHistorico={buscarHistorico}></Operacoes>
+      </div>
     </>
   )
 
